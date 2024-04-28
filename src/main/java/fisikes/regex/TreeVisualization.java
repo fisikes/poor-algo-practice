@@ -1,4 +1,4 @@
-package gn.regex;
+package fisikes.regex;
 
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;

@@ -1,4 +1,4 @@
-package gn.regex;
+package fisikes.regex;
 
 import javax.swing.*;
 import java.awt.*;
