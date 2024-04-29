@@ -1,4 +1,4 @@
-package fisikes.solutions.numbers;
+package fisikes.leetcode.numbers;
 
 import fisikes.util.PrintHelper;
 

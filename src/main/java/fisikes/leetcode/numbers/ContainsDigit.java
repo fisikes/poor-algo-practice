@@ -1,4 +1,4 @@
-package fisikes.solutions.numbers;
+package fisikes.leetcode.numbers;
 
 public class ContainsDigit {
 

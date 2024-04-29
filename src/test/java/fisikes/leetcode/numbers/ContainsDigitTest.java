@@ -1,4 +1,4 @@
-package fisikes.solutions.numbers;
+package fisikes.leetcode.numbers;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
