@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 
 /*
@@ -24,7 +23,7 @@ import java.util.stream.Collectors;
   输入: strs = ["a"]
   输出: [["a"]]
  */
-public class 字母异位词分组 {
+public class GroupAnagrams {
 
 
   public static List<List<String>> groupAnagrams(String[] strs) {
@@ -32,6 +31,7 @@ public class 字母异位词分组 {
     Map<String, List<String>> map = new HashMap<>();
     Arrays.stream(strs).map(String::toLowerCase).forEach(str -> {
       char[] chars = str.toCharArray();
+      // 关键步骤排序
       Arrays.sort(chars);
       final String ordered = String.valueOf(chars);
       if (!map.containsKey(ordered)) {
