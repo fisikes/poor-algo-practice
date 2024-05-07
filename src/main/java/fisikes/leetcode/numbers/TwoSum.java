@@ -1,6 +1,5 @@
 package fisikes.leetcode.numbers;
 
-import fisikes.util.PrintHelper;
 
 public class TwoSum {
 
@@ -21,6 +20,5 @@ public class TwoSum {
   public static void main(String[] args) {
 
     int[] arr = {2, 7, 11, 15};
-    PrintHelper.print(twoSum(arr, 13));
   }
 }

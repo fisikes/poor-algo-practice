@@ -1,9 +1,11 @@
 package fisikes.leetcode;
 
+
 /**
  *
+ * 合并两个递增的有序数组, 合并后仍然有序, 结果存放在nums1数组中.
  */
-public class MergeSortArray {
+public class MergeSortedArray {
 
   // 将最终数据合并到nums1中, nums1的长度为m+n
   public void merge(int[] nums1, int m, int[] nums2, int n) {
